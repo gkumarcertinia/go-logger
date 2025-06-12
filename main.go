@@ -1,4 +1,4 @@
-package gologger
+package go-logger
 
 import "log"
 

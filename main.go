@@ -2,18 +2,18 @@ package go-logger
 
 import "log"
 
-func logInfo(message string) {
+func LogInfo(message string) {
 	log.Printf("INFO - %v ", message)
 }
 
-func logWarning(message string) {
+func LogWarning(message string) {
 	log.Printf("WARN - %v ", message)
 }
 
-func logError(message string) {
+func LogError(message string) {
 	log.Printf("ERROR - %v ", message)
 }
 
-func logDebug(message string) {
+func LogDebug(message string) {
 	log.Printf("DEBUG - %v ", message)
 }
